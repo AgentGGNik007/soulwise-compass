@@ -36,9 +36,9 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p releases/zip
-          rm -f releases/zip/cao-the-call-of-the-ancestor-latest.zip
+          rm -f releases/zip/soulwise-compass-latest.zip
 
-          zip -r releases/zip/cao-the-call-of-the-ancestor-latest.zip . \
+          zip -r releases/zip/soulwise-compass-latest.zip . \
             -x ".git/*" \
             -x ".github/*" \
             -x "node_modules/*" \
@@ -52,6 +52,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add releases/zip/cao-the-call-of-the-ancestor-latest.zip
+          git add releases/zip/soulwise-compass-latest.zip
           git commit -m "chore: update release ZIP (latest)" || exit 0
           git push origin main
