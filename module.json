@@ -2,7 +2,7 @@
   "id": "soulwise-compass",
   "title": "Soulwise Compass",
   "description": "A Foundry VTT module adding an interactive compass UI bound to an equipped item. The compass can attune to a hidden GM-only marker, pointing toward it instead of north. Limited-use functionality integrates with Easy Timekeeping and long rest mechanics for narrative exploration.",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Niklas",
